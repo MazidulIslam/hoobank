@@ -25,7 +25,7 @@ const Hero = () => {
             The Next <br className="sm:block hidden" />{' '}
             <span className="text-gradient">Generation</span>{' '}
           </h1>
-          <div className="ss:flex hidden md:mr-4 mr-0">
+          <div className="ss:flex hidden md:mr-4 mr-0 scale-100  hover:scale-105 ease-in duration-500">
             <GetStarted />
           </div>
         </div>
@@ -56,7 +56,9 @@ const Hero = () => {
         {/* gradient end */}
       </div>
 
-      <div className={`ss:hidden ${styles.flexCenter}`}>
+      <div
+        className={`ss:hidden ${styles.flexCenter} scale-100  hover:scale-105 ease-in duration-500`}
+      >
         <GetStarted />
       </div>
     </section>
